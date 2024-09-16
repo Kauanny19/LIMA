@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(208, 243, 255);
+    color: black;
+    /*Garante que o body ocupe toda a altura da tela*/
+    min-height: 100vh;
+}
+
+header{
+    background-color: rgb(52, 169, 205);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    /*Uso do flexbox para alinhar a logo e o título*/
+    display: flex;
+
+    /*Alinha verticalmente os itens da div em questão*/
+    align-items: center;
+
+    /*Centraliza os itens horizontalmente*/
+    justify-content: center; 
+    background-color: rgb(34, 137, 169);
+}
+
+img{
+    max-width: 70px;
+    margin-right: 10px;
+}

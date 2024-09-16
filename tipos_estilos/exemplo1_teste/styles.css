@@ -1,0 +1,23 @@
+/*Seletor universal*/
+*{
+    background-color: pink;
+    color: white;
+}
+
+/*Estilização por nome de tag*/
+h1{
+    background-color: plum;
+    color: purple;
+}
+
+/*Estilização por classe*/
+.titulo{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+/*Estilização por seletor de id*/
+#destaque{
+    background-color: lightcyan;
+    color: darkcyan;
+}
