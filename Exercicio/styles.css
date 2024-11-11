@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh; /* body ocupa toda a altura da tela */
+    position: relative;
+    padding-bottom: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(111, 164, 214);
+    color: white;
+    padding: 15px; /* Espaçamento interno */
+}
+
+header .logo {
+    display: flex; /* Usa flexbox para alinhar a logo e o título */
+    align-items: center;
+    font-size: 20px;
+}
+
+header .logo img {
+    width: 65px;
+    margin-right: 10px; /* Espaço entre a logo e o título */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 5px; /* Espaçamento superior */
+}   
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento horizontal entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+main section {
+    margin-bottom: 40px; /* Espaçamento inferior entre as seções */
+}
+
+#home {
+    background-color: #89b5deec; /* Cor de fundo para destacar a seção 'home' */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    width: 70%;
+    align-content: space-around;
+}
+
+/* Estilo específico para o título dentro da seção 'home' */
+#home h2 {
+    color: #001279; /* Cor específica para o título da seção 'home' */
+    margin-bottom: 10px;
+}
+
+#loja {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    color: #001279;
+    background-color: #cee1f3ec;
+    padding: 20px;
+    
+}
+#loja h2{
+    color: #001279; /* Cor específica para o título da seção 'home' */
+    padding: 10px;
+    
+}
+.produtos-container {
+    display: flex; 
+    gap: 20px; /* Espaçamento entre os itens */
+    
+}
+
+.produto-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Cor de fundo branca */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    padding: 10px; /* Espaçamento interno */
+    width: 90%;
+    margin-top: 15px;
+}
+
+.produto-item img {
+    width: 50%;
+    align-self: center;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(111, 164, 214);
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
